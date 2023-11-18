@@ -73,9 +73,20 @@ table {
 }
 
 ul {  
+  display: flex;
+  flex-wrap: wrap;
   padding-top: 100px;
   list-style: none;
 }
-
+li{
+  width: 275px;
+  padding: 10px;
+}
+img{
+  width: 275px;
+}
+span {
+  font-weight: bold;
+}
 
 
